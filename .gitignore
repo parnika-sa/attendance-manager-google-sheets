@@ -1,0 +1,68 @@
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+package-lock.json
+yarn.lock
+
+# IDE and editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+desktop.ini
+
+# Build and distribution
+dist/
+build/
+*.min.js
+*.min.css
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+*.bak
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Backup files
+*.backup
+*.swp
+*.swo
+
+# Google Apps Script
+appsscript.json
+
+# Testing
+coverage/
+.nyc_output/
+test/temp/
+
+# Keep the main files
+!Attendance-Manager-Pro.gs
+!README.md
+!INSTALLATION.md
+!LICENSE
+!.gitignore
